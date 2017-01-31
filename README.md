@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+White Paper
+============
 
-You can use the [editor on GitHub](https://github.com/imaxct/imaxct.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+White Paper is a jekyll theme for tech blogs. It is clean and simple with good semantic
+structure.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![white-paper image](https://cldup.com/ARj6_UCaWO.png)
 
-### Markdown
+## Usage:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Fork the project.
+- Change the fields in _config.yml.
+```
+name: White Paper <-- Change the name to the title you want.
+url: http://foobar.com <-- This must be changed to your website url, so if 
+it is http://foobar.com, set it to foobar.com
+```
+- Change the links in header.html.
+```
+<!-- change the below link to where you want them to point to. -->
+<li><a href="/white-paper"><span class="mega-octicon octicon-terminal" style="margin-right: 6px;"></span>White Paper</a></li>
+<li><a href="/white-paper/about"><span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>About</a></li>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Test the website live while editing the code:
 
-### Jekyll Themes
+## Issues:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/imaxct/imaxct.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Report issues or feature request [here](https://github.com/vinitkumar/white-paper/issues).
