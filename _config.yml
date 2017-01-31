@@ -1,6 +1,6 @@
 name: Max_CT
 highlighter: true
-url: http://vinitkumar.me/white-paper
+url: https://imaxct.github.io
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 description: 新搞的博客, 希望可以一直写下去.
