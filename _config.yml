@@ -1,5 +1,5 @@
 name: Max_CT
-highlighter: true
+highlighter: rouge
 url: http://maxct.me
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
