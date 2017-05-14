@@ -3,22 +3,21 @@
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="older"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></a>
+    <a href="{{site.url}}/page{{paginator.next_page}}" class="older"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></a>
   {% else %}
     <span class="next"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a href="/" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
+      <a href="{{site.url}}/" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
+      <a href="{{site.url}}/page{{paginator.previous_page}}" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
     {% endif %}
   {% else %}
     <span class="previous"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></span>
   {% endif %}
 </div>
 {%  endif %}
-<!--
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{site.google_analytics}}']);
@@ -29,4 +28,3 @@
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
--->

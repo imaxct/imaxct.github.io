@@ -2,10 +2,16 @@ name: Max_CT
 highlighter: rouge
 url: http://maxct.me
 gems: [jekyll-paginate,  jekyll-gist]
+markdown: kramdown
 paginate: 8
 description: Blog | maxct
 intro: Blog of mine.
 logo: logo.png
+about: >
+>SDU, 软工在读.
+>Email: <a href="mailto:imaxct.foxmail.com">imaxct@foxmail.com</a>
+>GitHub: <a href="https://github.com/imaxct">Max_CT(imaxct)</a>
+
 disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
