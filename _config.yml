@@ -1,6 +1,6 @@
 name: Max_CT
 highlighter: rouge
-url: http://maxct.me
+url: //maxct.me
 gems: [jekyll-paginate,  jekyll-gist]
 markdown: kramdown
 paginate: 8
