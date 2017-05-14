@@ -7,13 +7,13 @@ title: Shell Learning - 001 - 特殊字符
 
 shell脚本中用`#`作注释标识, `#`之后的为注释, 不会被执行.
 
-``` shell
+```bash
 #This is comment
 ```
 
 `#`可以插入到管道中, 不影响最终结果.
 
-``` shell
+```bash
 echo "ABCDEF" |\
 #A embedded comment
 grep "BC"
@@ -21,7 +21,7 @@ grep "BC"
 
 在有些命令中`#`并不是注释
 
-``` shell
+```bash
 echo ${PATH#*:}
 echo $(( 2#10101 ))
 ```
@@ -30,7 +30,7 @@ echo $(( 2#10101 ))
 
 shell中命令分隔符为`;`, 用来分隔一行中的多个命令, 后面需要添加一个`空格`
 
-``` shell
+```bash
 if [[ -x $0 ]]; then echo "executable"; done
 #             ^^                      ^^
 ```
