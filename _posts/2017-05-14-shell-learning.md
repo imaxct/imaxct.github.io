@@ -11,21 +11,21 @@ shell脚本中用`#`作注释标识, `#`之后的为注释, 不会被执行.
 
 `#`可以插入到管道中, 不影响最终结果.
 
-		echo "ABCDEF" |\
-		#A embedded comment
-		grep "BC"
+	echo "ABCDEF" |\
+	#A embedded comment
+	grep "BC"
 
 在有些命令中`#`并不是注释
 
-		echo ${PATH#*:}
-		echo $(( 2#10101 ))
+	echo ${PATH#*:}
+	echo $(( 2#10101 ))
 
 ### 命令分隔符
 
 shell中命令分隔符为`;`, 用来分隔一行中的多个命令, 后面需要添加一个`空格`
 
-		if [[ -x $0 ]]; then echo "executable"; done
-		#             ^^                      ^^
+	if [[ -x $0 ]]; then echo "executable"; done
+	#             ^^                      ^^
 
 ### case中的终结符号(Terminator)
 
