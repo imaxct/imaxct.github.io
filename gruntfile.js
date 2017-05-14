@@ -6,13 +6,13 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'css/base.css',
-          'css/syntax/emacs.css',
+          'css/syntax/github.css',
           'css/octicons.css'
         ],
         dest: 'css/<%= pkg.name %>.add.css'
       }
     },
-    
+
     cssmin: {
       'css/main.min.css': [
         '<%= concat.dist.dest %>'
