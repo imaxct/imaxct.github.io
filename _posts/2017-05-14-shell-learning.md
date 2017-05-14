@@ -3,7 +3,7 @@ layout: post
 title: Shell Learning - 001 - 基础部分
 ---
 
-##注释
+## 注释
 
 shell脚本中用``#``作注释标识
 

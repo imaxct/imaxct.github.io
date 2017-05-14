@@ -3,9 +3,9 @@ highlighter: rouge
 url: http://maxct.me
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
-description: 新搞的博客, 希望可以一直写下去.
-intro: Blog.
-logo:             logo.png
+description: Blog | maxct
+intro: Blog of mine.
+logo: logo.png
 disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
