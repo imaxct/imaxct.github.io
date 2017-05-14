@@ -4,8 +4,7 @@ url: //maxct.me
 gems: [jekyll-paginate,  jekyll-gist]
 markdown: kramdown
 paginate: 8
-description: Blog | maxct
-intro: Blog of mine.
+description: blog of mine
 logo: logo.png
 about: >
     SDU, 软工在读.
