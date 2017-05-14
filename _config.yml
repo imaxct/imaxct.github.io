@@ -1,5 +1,5 @@
 name: Max_CT
-highlighter: rouge
+highlighter: github
 url: //maxct.me
 gems: [jekyll-paginate,  jekyll-gist]
 markdown: kramdown
