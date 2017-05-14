@@ -6,8 +6,9 @@ title: Shell Learning - 001 - 特殊字符
 ### 注释
 
 shell脚本中用`#`作注释标识, `#`之后的为注释, 不会被执行.
+
 	#This is comment
-  
+
 `#`可以插入到管道中, 不影响最终结果.
 
 		echo "ABCDEF" |\
